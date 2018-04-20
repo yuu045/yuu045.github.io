@@ -1,17 +1,43 @@
-   <div class="logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
 
-   <nav class="cd-primary-nav">
-      <a href="#cd-navigation" class="nav-trigger">
-         <span>
-            <em aria-hidden="true"></em>
-            Menu
-         </span>
-      </a> <!-- .nav-trigger -->
 
-      <ul id="cd-navigation">
-         <li><a href="#0">The team</a></li>
-         <li><a href="#0">Our Services</a></li>
-         <li><a href="#0">Our Projects</a></li>
-         <li><a href="#0">Contact Us</a></li>
-      </ul>
-   </nav> <!-- .cd-primary-nav -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
+
+<!DOCTYPE html>
+<nav class="uk-navbar-container" uk-navbar>
+
+
+
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+         <li>Home</li>
+           <!-- <li class="uk-active"><a href="#">Active</a></li>
+            <li>
+                <a href="#">Parent</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                    </ul>
+                </div>
+            </li>-->
+            <li>
+               <a href="#">Projects</a>
+               <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li><a href="#">Google Map API</a></li>
+                        <li><a href="#">Data Visualizer</a></li>
+                        <li><a href="#">Single Page Introducer</a></li>
+                    </ul>
+
+            </li>
+            <li><a href="#">About Me</a></li>
+        </ul>
+
+    </div>
+
+</nav>
