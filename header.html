@@ -1,12 +1,13 @@
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
+
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/css/uikit.min.css" />
 
 <!-- UIkit JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.42/js/uikit-icons.min.js"></script>
-
-<!DOCTYPE html>
+</head>
 <nav class="uk-navbar-container" uk-navbar>
 
 
@@ -14,7 +15,7 @@
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav">
-         <li>Home</li>
+         <li><a href="#">Home</a></li>
            <!-- <li class="uk-active"><a href="#">Active</a></li>
             <li>
                 <a href="#">Parent</a>
@@ -28,14 +29,17 @@
             </li>-->
             <li>
                <a href="#">Projects</a>
+               <div class="uk-navbar-dropdown">
                <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="#">Google Map API</a></li>
                         <li><a href="#">Data Visualizer</a></li>
                         <li><a href="#">Single Page Introducer</a></li>
                     </ul>
+                 </div>
 
             </li>
             <li><a href="#">About Me</a></li>
+            
         </ul>
 
     </div>
